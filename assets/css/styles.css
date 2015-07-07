@@ -1,0 +1,54 @@
+header {
+    background-attachment: fixed;
+    background-image: url("../imgs/download.jpg");
+    background-position: cover;
+    height: 450px;
+}
+
+.nav li a {
+        color: black
+}
+
+.navbar-brand {
+        color: crimson
+}
+
+.navbar-brand:hover, 
+.navbar-brand:focus {
+    background-color: transparent;
+    color: #ff27ff;
+}
+
+.nav li a:hover,
+.nav li a:focus {
+    background-color: transparent;
+    color: green;
+}
+        
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+.quote-list article .quote{
+    color: green;
+    font-style: italic;
+    text-align: center;
+}
+.quotes h2 {
+    text-align: center;
+}
+
+.quote-list article .quote .bio {
+
+}
+
+.quote-list article .bio .image,
+.quote-list article .bio .author{
+    float: left
+}
+
+.quote-list article .bio .author {
+    padding-left: 10px;
+}
+.quote-list article .bio .image img {
+    border-radius: 50%;
+}
